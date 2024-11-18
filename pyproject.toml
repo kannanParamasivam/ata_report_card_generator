@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "exel-workout"
+version = "0.1.0"
+description = ""
+authors = ["Kannan Paramasivam <kannan.paramasivam@grainger.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openpyxl = "^3.1.2"
+xlwings = "^0.30.12"
+pillow = "^10.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+my-script = "generate_report_card"
